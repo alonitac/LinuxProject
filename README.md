@@ -13,7 +13,7 @@ It will familiarize you with the project workflows and testing methods used thro
 ## Preliminaries
 
 1. [Clone this repo into your PyCharm](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo).  
-2. In PyCharm, [create new branch](https://www.jetbrains.com/help/pycharm/manage-branches.html#create-branch) from branch `main`. Your branch must be named according to the following template:
+2. In PyCharm, [create a new branch](https://www.jetbrains.com/help/pycharm/manage-branches.html#create-branch) from branch `main`. Your branch must be named according to the following template:
 
 ```text
 linux_project/<alias>
@@ -31,20 +31,13 @@ The branch name must start with `linux_project/`.
 
 Great. Let's get started...
 
-### Submission
-
-At the end of this project, under `linux_project` directory in the shared repo, you should **commit** and **push** only **2 files** as your solution:
-
-- `SOLUTION` file with your solution to the below questions. 
-- Your bash script solution in `yourSolution.sh` file (see the last question below).
-
 ## Questions
 
 ### Kernel System Calls
 
 The Linux Kernel was presented in our first linux lecture - the main component of a Linux OS which functions as the core interface between a computer’s hardware and its applications.
 
-![](../.img/linuxkernel.png)
+![](https://alonitac.github.io/img/linuxkernel.png)
 
 Then we moved to learn how to use the Terminal and communicate with the OS using commands such as `ls` or `chmod`.  
 But how does it really work? we type a command, hit the Enter key, and then what happen? This question tries to investigate that point.  
@@ -128,6 +121,14 @@ wget https://alonitac.github.io/__REPO_NAME__/secretGenerator.tar.gz
 At the end, given a clean version of `src` directory (without the changes you've made) you should be able to run `/bin/bash yourSolution.sh` and the secret should be generated without any errors. 
 6. Copy the content of `yourSolution.sh` into the same file in the Git repo under `linux_project/yourSolution.sh`. 
  
+## Submission
+
+At the end of this project, under `linux_project` directory in the shared repo, you should **commit** and **push** only **2 files** as your solution:
+
+- `SOLUTION` file with your solution to the below questions. 
+- Your bash script solution in `yourSolution.sh` file (see the last question below).
+
+
 ## Push your solution
 
 
