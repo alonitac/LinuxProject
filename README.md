@@ -69,7 +69,8 @@ If you're unsure about your CPU architecture, you can usually find this informat
 2. Run the program using strace: `strace ./whatIdo`.
 3. Follow strace output. 
 
-   > [!TIP] many lines in the beginning are part of the load of the
+   > [!TIP] 
+   > many lines in the beginning are part of the load of the
    > program. The first “interesting” lines comes only at the end of the output. 
 
 In the `SOLUTION` file, write a **brief** description of what the program does. Don't copy & paste the terminal output as your answer, neither explain any single command. 
