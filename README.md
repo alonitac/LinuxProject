@@ -25,33 +25,36 @@ These files can include code, images, documentation, and more.
 This Linux project is also stored and provided to you as a GitHub repo.
 You'll answer the project's questions here, inside the repo, as if you are working on a code project. 
 
-each time you commit and push changes to GitHub, it generates activity on your profile. This activity is visible to recruiters and potential employers, providing them with insights into your coding habits, contributions to projects, and overall engagement with the developer community. 
-
 However, because this repository is owned by me, you don't have permission to directly make changes.
 Thus, I want you to **fork** this repository. 
 When you fork a repository, you create a copy of the original repository under your own GitHub account. 
 This copy is completely separate from the original repository, so you can make changes to it without altering the original project.
 
 
-1. Fork this GitHub repository. 
-2. In order to download the repo files to your local machine, you have to [clone this repo into your PyCharm](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo).  
+1. [Fork this repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository). 
+2. Now [clone your forked repo into your PyCharm](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo), so you can start answer the project's questions locally.  
 3. In PyCharm, [create a new branch](https://www.jetbrains.com/help/pycharm/manage-branches.html#create-branch) from branch `main`. Your branch must be named according to the following template:
 
 ```text
-linux_project/<alias>
+linux_project/YOUR_NAME_HERE
 ```
 
-While changing `<alias>` to your name, e.g. `linux_project/alonit`.
+While changing `YOUR_NAME_HERE` to your name, e.g. `linux_project/alonit`.
 
 The branch name must start with `linux_project/`.
 
 > [!NOTE]
 > Don't worry if you're not familiar with Git or branches yet. 
 > We'll cover those topics later on. 
-> The reason we're doing this (cloning the repo, and creating a branch...) is because DevOps engineers do this every day,
-> it's part of their daily workflow, and we want you to get used to it.
+> You might wonder why these steps seem a bit cumbersome. 
+> The reason we're asking you to fork the repo, clone it, and create a branch is because DevOps engineers follow these steps as part of their daily workflow. 
+> 
+> By working on this project, you are generating an activity on your profile.
+> This activity is visible to recruiters and potential employers, providing them with insights into your coding habits, contributions to projects, and overall engagement with the developer community. 
+> Think of it as your digital "business card" for people who are interested in your technical experience.  
 
-Great. Let's get started...
+
+Let's get started...
 
 ## Questions
 
