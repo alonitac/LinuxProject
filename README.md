@@ -37,7 +37,7 @@ Great. Let's get started...
 
 The Linux Kernel was presented in our first linux lecture - the main component of a Linux OS which functions as the core interface between a computer’s hardware and its applications.
 
-![](https://alonitac.github.io/img/linux_project_linuxkernel.png)
+![](https://alonitac.github.io/DevOpsTheHardWay/img/linux_project_linuxkernel.png)
 
 Then we moved to learn how to use the Terminal and communicate with the OS using commands such as `ls` or `chmod`.  
 But how does it really work? we type a command, hit the Enter key, and then what happen? This question tries to investigate that point.  
