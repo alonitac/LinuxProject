@@ -70,7 +70,7 @@ If you're unsure about your CPU architecture, you can usually find this informat
 3. Follow strace output. 
 
 > [!TIP] 
-> many lines in the beginning are part of the load of the
+> Many lines in the beginning are part of the load of the
 > program. The first “interesting” lines comes only at the end of the output. 
 
 In the `SOLUTION` file, write a **brief** description of what the program does. Don't copy & paste the terminal output as your answer, neither explain any single command. 
@@ -79,16 +79,16 @@ Try to get a general idea of what this program does by observing the sys calls a
 
 ### Binary Numbers
 
-1. Convert the following binary numbers to decimals: 111, 100, 10110.
+1. Convert the following binary numbers to decimals: `111`, `100`, `10110`.
 2. What is the available decimal range represented by 8 bits binary number?
-3. Given a 9 bits binary number, suggest a method to represent negative numbers between 0-255.
-4. Suggest a method to represent a floating point numbers (e.g. 12.3,  15.67, 0.231) using 8 bits binary numbers.
+3. Given a 9 bits binary number, suggest a method to represent negative numbers between `-255` to `255`.
+4. Suggest a method to represent a floating point numbers (e.g. `12.3`,  `15.7`, `0.2`) using 8 bits binary numbers.
 
 ### Broken Symlink
 
-Uber has an automated daily backup system. Every day another backup file is being created in the file system according to the following format: `backup-YYYY-MM-DD.obj`. e.g. `backup-2023-03-01.obj`.
+Uber has an automated daily backup system. Every day another backup file is being created in the file system according to the following format: `backup-YYYY-MM-DD.obj` (e.g. `backup-2023-03-01.obj`).
 To be able to restore the system from a backup copy in a convenient way,
-they want to point to the last generated backup file using a static file named `backup.obj`. To do so, they create a **symbolic link** pointing to the last generated backup file.  
+they want to point to the last generated backup file using a static file named `latest-backup.obj`. To do so, they create a **symbolic link** pointing to the last generated backup file.  
 
 1. Let's create the daily backup file:
 ```shell
@@ -99,54 +99,50 @@ echo "backup data..." >> $FILENAME
 
 2. Then, create a symlink (soft link) to the daily backup file:
 ```shell
-ln -s $FILENAME backup.obj
+ln -s $FILENAME latest-backup.obj
 ```
 
 At some point in the development lifecycle of the product,
-the DevOps team has decided to organize all backup links in a directory called `backups`. They moved the link `backup.obj` into `backups` directory:
+the DevOps team has decided to organize all backup links in a directory called `backups`. They moved the link `latest-backup.obj` into `backups` directory:
 ```shell
 mkdir backups
-mv backup.obj backups/
+mv latest-backup.obj backups/
 ```
 
 What's wrong here? provide a fix to Uber's code. 
 
 ### File System Manipulations
 
-1. Open the linux terminal and perform:
+1. Open up a Linux terminal and perform:
 
 ```shell
-wget https://alonitac.github.io/__REPO_NAME__/secretGenerator.tar.gz
+wget https://alonitac.github.io/DevOpsTheHardWay/linux_project/secretGenerator.tar.gz
 ```
 
-2. Use the `tar` command to extract the compressed file. Enter the `src` directory using `cd`. Explore the files and their content.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
-3. Your goal is to generate a secret. The secret is generated using the following command: `/bin/bash generateSecret.sh`.
-
-4. Once you've generated it, copy it to the designated place in the `SOLUTION` file (33 characters). 
-
-5. Use `nano` or your preferred text editor, in `yourSolution.sh` file,  write a bash script (a complete commands set, single command in each line) that lets you generate the secret.
+2. Use the `tar` command to extract the compressed file. Enter the `src` directory. Explore the files and their content. 
+3. Your goal is to generate a secret. The secret is generated once the following command is executed successfully (with exit code 0): `/bin/bash generateSecret.sh`.
+4. Once you've generated the secret, copy it to the designated place in the `SOLUTION` file (**exactly** 33 characters).
+5. Using `nano` or your preferred text editor, write a bash script in the `yourSolution.sh` file (a complete commands set, single command in each line) that let you generate the secret.
 At the end, given a clean version of `src` directory (without the changes you've made) you should be able to run `/bin/bash yourSolution.sh` and the secret should be generated without any errors. 
-6. Copy the content of `yourSolution.sh` into the same file in the Git repo under `linux_project/yourSolution.sh`. 
+6. Copy the content of `yourSolution.sh` into the same file in the Git repo under `yourSolution.sh`. 
  
 ## Submission
 
-At the end of this project, under `linux_project` directory in the shared repo, you should **commit** and **push** only **2 files** as your solution:
 
-- `SOLUTION` file with your solution to the below questions. 
-- Your bash script solution in `yourSolution.sh` file (see the last question below).
+To submit your project for testing,you have to [commit](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#commit) your solution.
 
+> [!IMPORTANT]
+> If it's the first time ever you're committing using Git, PyCharm may ask you to set your Git username and email. Feel free to specify any information you want. 
 
-## Push your solution
+The **only** two files that have to be committed are `SOLUTION` and `yourSolution.sh`.
 
-
-Finally, [commit](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#commit) your solution. The **only** files that has to be committed are `linux_project/SOLUTION` and `linux_project/yourSolution.sh`.
-
-After clicking on commit button, write some info message regarding your commit in the **Commit Message** and click the **Commit** button.
-Commit messages are usually free text written by the developer, providing some information regarding the changes you are committing. Examples could be something like "initial solution" or "linux project solution - work in progress" or "linux project - final solution!".
+In the commit message, write some info regarding your commit, and click the **Commit** button.
+Commit messages are usually free text written by the developer, providing some information regarding the changes you are committing. 
+Examples could be something like "initial solution" or "linux project solution - work in progress" or "linux project - final solution!".
 Feel free to fix your code and commit the changes again and again. You can commit as much as you want.
 
-Then [push](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#push) your solution to GitHub. Bravo! you've submitted your solution! 
+Then [push](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#push) your solution to GitHub. 
+Bravo! you've submitted your solution! 
 
 Your solution has to pass an automated tests.
 Go to [GitHub actions](https://github.com/alonitac/__REPO_NAME__/actions) and make sure your solution has passed the tests. You must see the following message:
