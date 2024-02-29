@@ -33,7 +33,7 @@ This copy is completely separate from the original repository, so you can make c
 
 1. [Fork this repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository). 
 2. Now [clone your forked repo into your PyCharm](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo), so you can start answer the project's questions locally.  
-3. In PyCharm, [create a new branch](https://www.jetbrains.com/help/pycharm/manage-branches.html#create-branch) from branch `main`. Your branch must be named according to the following template:
+3. In PyCharm, [create a new branch](https://www.jetbrains.com/help/pycharm/manage-branches.html#create-branch) from branch `main`. Your branch must be named according to the following pattern:
 
 ```text
 linux_project/YOUR_NAME_HERE
@@ -46,13 +46,10 @@ The branch name must start with `linux_project/`.
 > [!NOTE]
 > Don't worry if you're not familiar with Git or branches yet. 
 > We'll cover those topics later on. 
+> 
 > You might wonder why these steps seem a bit cumbersome. 
 > The reason we're asking you to fork the repo, clone it, and create a branch is because DevOps engineers follow these steps as part of their daily workflow. 
-> 
-> By working on this project, you are generating an activity on your profile.
-> This activity is visible to recruiters and potential employers, providing them with insights into your coding habits, contributions to projects, and overall engagement with the developer community. 
-> Think of it as your digital "business card" for people who are interested in your technical experience.  
-
+ 
 
 Let's get started...
 
@@ -153,7 +150,6 @@ At the end, given a clean version of `src` directory (without the changes you've
  
 ## Submission
 
-
 To submit your project for testing, you first have to [commit](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#commit) your solution.
 
 > [!IMPORTANT]
@@ -177,5 +173,12 @@ Well Done! you've passed all tests
 ```
 
 Otherwise, your solution has to be fixed. Do your changes, commit and push again.
+
+> [!TIP]
+> By working on this project, you are generating an activity on your profile.
+> This activity is visible to recruiters and potential employers, providing them with insights into your coding habits, contributions to projects, and overall engagement with the developer community. 
+> Think of it as your digital "business card" for people who are interested in your technical experience.  
+
+
 
 # Good Luck
