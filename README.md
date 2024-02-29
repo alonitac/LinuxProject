@@ -1,24 +1,31 @@
 # Linux Project
 
+This project is part of the [DevOpsTheHardWay](https://github.com/alonitac/DevOpsTheHardWay) course. Please [onboard the course]() before starting the project. 
+
 ## Project goals
 
-- Basic workflow with git and GitHub.
-- Linux error debugging. 
-- Working with basic commands.
-- Execute tasks with precision and attention to details.
+This project is aimed for the very beginners who want to get familiar with Git and GitHub workflows, debug Linux errors and work with basic Linux commands.
+
+
 
 ## Preliminaries
 
-1. Open (or clone if you didn't do it yet) [our shared git repo](https://github.com/alonitac/__REPO_NAME__) in PyCharm and **pull** the repository (CTRL+T) to get an up-to-date version from GitHub.
+1. [Clone this repo into your PyCharm](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo).  
 2. In PyCharm, [create new branch](https://www.jetbrains.com/help/pycharm/manage-branches.html#create-branch) from branch `main`. Your branch must be named according to the following template:
 
 ```text
 linux_project/<alias>
 ```
 
-While changing `<alias>` to your name (choose some nickname if there is another student in the course with the same name as yours). e.g. `linux_project/alonit`.
+While changing `<alias>` to your name, e.g. `linux_project/alonit`.
 
 The branch name must start with `linux_project/`.
+
+> [!NOTE]
+> Don't worry if you're not familiar with Git and GitHub yet. 
+> We'll cover those topics later on. 
+> The reason we're doing this (cloning the repo, and creating a branch...) is because DevOps engineers do this every day,
+> it's part of their daily workflow, and we want you to get used to it.
 
 Great. Let's get started...
 
