@@ -3,11 +3,12 @@
 > [!NOTE]
 > This project is part of the [DevOpsTheHardWay](https://github.com/alonitac/DevOpsTheHardWay) course. Please [onboard the course]() before starting the project. 
 
-## Project goals
+## Project Goals
 
 This project is aimed for the very beginners who want to get familiar with Git and GitHub workflows, debug Linux errors and work with basic Linux commands.
 
-
+Regardless of your familiarity with Linux, **we highly encourage you to complete this exercise**.
+It will familiarize you with the project workflows and testing methods used throughout the course, ensuring you're well-prepared for future projects.
 
 ## Preliminaries
 
