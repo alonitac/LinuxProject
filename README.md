@@ -5,15 +5,31 @@
 
 ## Project Goals
 
-This project is aimed for the very beginners who want to get familiar with Git and GitHub workflows, debug Linux errors and work with basic Linux commands.
+This project is aimed for the **very beginners** who want to get familiar with Git and GitHub workflows, debug Linux errors and work with basic Linux commands.
 
 Regardless of your familiarity with Linux, **we highly encourage you to complete this exercise**.
 It will familiarize you with the project workflows and testing methods used throughout the course, ensuring you're well-prepared for future projects.
 
 ## Preliminaries
 
-1. [Clone this repo into your PyCharm](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo).  
-2. In PyCharm, [create a new branch](https://www.jetbrains.com/help/pycharm/manage-branches.html#create-branch) from branch `main`. Your branch must be named according to the following template:
+The website you are visiting now is called GitHub.
+It's a platform where millions of developers from all around the world collaborate on projects and share code. 
+
+Think of GitHub as the "central-station" of a code project. 
+As a DevOps engineer you'll spend a lot of time here!
+
+Each project on GitHub is stored in something called a **repository**, or **repo** for short. 
+A repository is like a folder that contains all the files and resources related to a project.
+These files can include code, images, documentation, and more.
+
+This Linux project is also stored and provided to you as a GitHub repo.
+You'll answer the project question here
+
+Since this repo is owned by me, you cannot do any changes Now I want you to **fork** this repository but you want to make some changes to it or experiment with it without affecting the original project. That's where forking comes in.
+
+1. Fork this GitHub repository. 
+2. [Clone this repo into your PyCharm](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo).  
+3. In PyCharm, [create a new branch](https://www.jetbrains.com/help/pycharm/manage-branches.html#create-branch) from branch `main`. Your branch must be named according to the following template:
 
 ```text
 linux_project/<alias>
@@ -129,10 +145,10 @@ At the end, given a clean version of `src` directory (without the changes you've
 ## Submission
 
 
-To submit your project for testing,you have to [commit](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#commit) your solution.
+To submit your project for testing, you first have to [commit](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#commit) your solution.
 
 > [!IMPORTANT]
-> If it's the first time ever you're committing using Git, PyCharm may ask you to set your Git username and email. Feel free to specify any information you want. 
+> If it's the first time ever you're committing using Git, PyCharm may ask you to set your Git username and email. Feel free to specify any details you want. 
 
 The **only** two files that have to be committed are `SOLUTION` and `yourSolution.sh`.
 
@@ -141,7 +157,7 @@ Commit messages are usually free text written by the developer, providing some i
 Examples could be something like "initial solution" or "linux project solution - work in progress" or "linux project - final solution!".
 Feel free to fix your code and commit the changes again and again. You can commit as much as you want.
 
-Then [push](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#push) your solution to GitHub. 
+Then, [push](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#push) your solution to GitHub. 
 Bravo! you've submitted your solution! 
 
 Your solution has to pass an automated tests.
