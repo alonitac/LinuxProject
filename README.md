@@ -1,6 +1,7 @@
 # Linux Project
 
-This project is part of the [DevOpsTheHardWay](https://github.com/alonitac/DevOpsTheHardWay) course. Please [onboard the course]() before starting the project. 
+> [!NOTE]
+> This project is part of the [DevOpsTheHardWay](https://github.com/alonitac/DevOpsTheHardWay) course. Please [onboard the course]() before starting the project. 
 
 ## Project goals
 
