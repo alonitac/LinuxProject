@@ -12,10 +12,10 @@ It will familiarize you with the project workflows and testing methods used thro
 
 ## Preliminaries
 
-The website you are visiting now is called GitHub.
+The website you are visiting now is called **GitHub**.
 It's a platform where millions of developers from all around the world collaborate on projects and share code. 
 
-Think of GitHub as the "central-station" of a code project. 
+Think of GitHub as the "central station" of a code project. 
 As a DevOps engineer you'll spend a lot of time here!
 
 Each project on GitHub is stored in something called a **repository**, or **repo** for short. 
@@ -23,12 +23,18 @@ A repository is like a folder that contains all the files and resources related 
 These files can include code, images, documentation, and more.
 
 This Linux project is also stored and provided to you as a GitHub repo.
-You'll answer the project question here
+You'll answer the project's questions here, inside the repo, as if you are working on a code project. 
 
-Since this repo is owned by me, you cannot do any changes Now I want you to **fork** this repository but you want to make some changes to it or experiment with it without affecting the original project. That's where forking comes in.
+each time you commit and push changes to GitHub, it generates activity on your profile. This activity is visible to recruiters and potential employers, providing them with insights into your coding habits, contributions to projects, and overall engagement with the developer community. 
+
+However, because this repository is owned by me, you don't have permission to directly make changes.
+Thus, I want you to **fork** this repository. 
+When you fork a repository, you create a copy of the original repository under your own GitHub account. 
+This copy is completely separate from the original repository, so you can make changes to it without altering the original project.
+
 
 1. Fork this GitHub repository. 
-2. [Clone this repo into your PyCharm](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo).  
+2. In order to download the repo files to your local machine, you have to [clone this repo into your PyCharm](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo).  
 3. In PyCharm, [create a new branch](https://www.jetbrains.com/help/pycharm/manage-branches.html#create-branch) from branch `main`. Your branch must be named according to the following template:
 
 ```text
@@ -40,7 +46,7 @@ While changing `<alias>` to your name, e.g. `linux_project/alonit`.
 The branch name must start with `linux_project/`.
 
 > [!NOTE]
-> Don't worry if you're not familiar with Git and GitHub yet. 
+> Don't worry if you're not familiar with Git or branches yet. 
 > We'll cover those topics later on. 
 > The reason we're doing this (cloning the repo, and creating a branch...) is because DevOps engineers do this every day,
 > it's part of their daily workflow, and we want you to get used to it.
