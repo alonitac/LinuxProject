@@ -39,7 +39,7 @@ The Linux Kernel was presented in our first linux lecture - the main component o
 
 ![](https://alonitac.github.io/DevOpsTheHardWay/img/linux_project_linuxkernel.png)
 
-Then we moved to learn how to use the Terminal and communicate with the OS using commands such as `ls` or `chmod`.  
+Then we moved to learn how to use the Terminal and communicate with the OS using commands such as `ls` or `chmod`. 
 But how does it really work? we type a command, hit the Enter key, and then what happen? This question tries to investigate that point.  
 
 Under the hood, linux commands are **compiled** C code (get yourself to know what is a compilation process if you don't know..). The C code contains **system calls**. 
@@ -52,21 +52,28 @@ It is an important tool to debug your programs in advanced cases.
 In this question, you should follow the `strace` output of a program in order to understand what exactly it
 does (i.e. what are the system calls of the program to the kernel). You can assume that the program does only what you can see by using `strace`.
 
-To run the program, open a linux terminal in an empty directory and perform:
+To run the program, open up a Linux terminal in an empty directory and use the `wget` command to retrieve program from the internet:
+
 ```shell
-wget https://alonitac.github.io/__REPO_NAME__/whatIdo_<CPU_ARCH>
+# for arm64 CPU architectures
+wget https://alonitac.github.io/DevOpsTheHardWay/linux_project/arm64/whatIdo
+
+# for amd64 (x86_64) CPU architecture
+wget https://alonitac.github.io/DevOpsTheHardWay/linux_project/amd64/whatIdo
 ```
 
-Where `<CPU_ARCH>` is `arm` or `amd`. TBD explain it better!
+Depending on the type of CPU your computer has, you'll need to use the appropriate command.
+If you're unsure about your CPU architecture, you can usually find this information by running a command like `uname -m` in the terminal.
 
-The `wget` command is able to retrieve data from the internet.
-
-1. Give the `whatIdo` file an exec permission (make sure you don't get Permission denied when running it).
+1. Give the `whatIdo` file an exec permissions (make sure you don't get Permission denied when running it).
 2. Run the program using strace: `strace ./whatIdo`.
-3. Follow strace output. Tip: many lines in the beginning are part of the load of the
-program. The first “interesting” lines comes only at the end of the output. 
+3. Follow strace output. 
 
-In the `SOLUTION` file, write a **brief** description of what the program does. Don't copy & paste the terminal output as your answer, neither explain any single command. Try to get a general idea of what this program does by observing the sys calls and the directory you've run the program.
+   > [!TIP] many lines in the beginning are part of the load of the
+   > program. The first “interesting” lines comes only at the end of the output. 
+
+In the `SOLUTION` file, write a **brief** description of what the program does. Don't copy & paste the terminal output as your answer, neither explain any single command. 
+Try to get a general idea of what this program does by observing the sys calls and the directory you've run the program in.
 
 
 ### Binary Numbers
