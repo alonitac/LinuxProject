@@ -10,8 +10,8 @@ This project is aimed for the **very beginners** who want to get familiar with G
 **Regardless of your familiarity with Linux, we highly encourage you to complete this exercise**.
 It will familiarize you with the project workflows and testing methods used throughout the course, ensuring you're well-prepared for future projects.
 
-[!IMPORTANT]
-If you need any help, feel free to reach out in the GitHub discussion community for the project.
+> [!IMPORTANT]
+> If you need any help, feel free to reach out in the GitHub discussion community for the project.
 
 ## Preliminaries
 
