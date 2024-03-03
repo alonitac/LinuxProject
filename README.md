@@ -33,6 +33,7 @@ When you fork a repository, you create a copy of the original repository under y
 This copy is completely separate from the original repository, so you can make changes to it without altering the original project.
 
 
+
 1. [Fork this repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository). 
 2. Now, [clone your forked repository into your PyCharm environment](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo). Cloning creates a local copy of the repository on your local computer. You'll work on the project's solution in PyCharm.   
 3. In PyCharm, [create a new branch](https://www.jetbrains.com/help/pycharm/manage-branches.html#create-branch) from branch `main`. Your branch **must** be named according to the following pattern:
