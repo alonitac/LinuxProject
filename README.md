@@ -7,23 +7,25 @@
 
 This project is aimed for the **very beginners** who want to get familiar with Git and GitHub workflows, debug Linux errors and work with basic Linux commands.
 
-Regardless of your familiarity with Linux, **we highly encourage you to complete this exercise**.
+**Regardless of your familiarity with Linux, we highly encourage you to complete this exercise**.
 It will familiarize you with the project workflows and testing methods used throughout the course, ensuring you're well-prepared for future projects.
 
 ## Preliminaries
 
+The first step we would like you to do is to fork this repo. 
+
+Wait a minute, **fork**? **repo**!? Let's take a step back. 
+
 The website you are visiting now is called **GitHub**.
 It's a platform where millions of developers from all around the world collaborate on projects and share code. 
-
-Think of GitHub as the "central station" of a code project. 
-As a DevOps engineer you'll spend a lot of time here!
 
 Each project on GitHub is stored in something called a **repository**, or **repo** for short. 
 A repository is like a folder that contains all the files and resources related to a project.
 These files can include code, images, documentation, and more.
 
-This Linux project is also stored and provided to you as a GitHub repo.
-You'll answer the project's questions here, inside the repo, as if you are working on a code project. 
+
+**This Linux project** is also stored and provided to you as a GitHub repo.
+You'll answer the project's questions here, inside the repo, as if you were working on a real code project. 
 
 However, because this repository is owned by me, you don't have permission to directly make changes.
 Thus, I want you to **fork** this repository. 
@@ -32,8 +34,8 @@ This copy is completely separate from the original repository, so you can make c
 
 
 1. [Fork this repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository). 
-2. Now [clone your forked repo into your PyCharm](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo), so you can start answer the project's questions locally.  
-3. In PyCharm, [create a new branch](https://www.jetbrains.com/help/pycharm/manage-branches.html#create-branch) from branch `main`. Your branch must be named according to the following pattern:
+2. Now, [clone your forked repository into your PyCharm environment](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo). Cloning creates a local copy of the repository on your local computer. You'll work on the project's solution in PyCharm.   
+3. In PyCharm, [create a new branch](https://www.jetbrains.com/help/pycharm/manage-branches.html#create-branch) from branch `main`. Your branch **must** be named according to the following pattern:
 
 ```text
 linux_project/YOUR_NAME_HERE
@@ -41,14 +43,9 @@ linux_project/YOUR_NAME_HERE
 
 While changing `YOUR_NAME_HERE` to your name, e.g. `linux_project/alonit`.
 
-The branch name must start with `linux_project/`.
-
-> [!NOTE]
-> Don't worry if you're not familiar with Git or branches yet. 
-> We'll cover those topics later on. 
-> 
-> You might wonder why these steps seem a bit cumbersome. 
-> The reason we're asking you to fork the repo, clone it, and create a branch is because DevOps engineers follow these steps as part of their daily workflow. 
+Don't worry if you don't understand exactly what "branch" is, or why do you do these steps. 
+We'll cover those topics later on in the course.
+We can only say than DevOps engineers do these steps as part of their daily workflow. 
  
 
 Let's get started...
@@ -175,8 +172,8 @@ Well Done! you've passed all tests
 Otherwise, your solution has to be fixed. Do your changes, commit and push again.
 
 > [!TIP]
-> By working on this project, you are generating an activity on your profile.
-> This activity is visible to recruiters and potential employers, providing them with insights into your coding habits, contributions to projects, and overall engagement with the developer community. 
+> By working on this project, you are generating an activity on your GitHub profile.
+> This activity is visible to recruiters and potential employers, providing them with insights into your coding habits, projects, and overall engagement. 
 > Think of it as your digital "business card" for people who are interested in your technical experience.  
 
 
