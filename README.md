@@ -10,6 +10,9 @@ This project is aimed for the **very beginners** who want to get familiar with G
 **Regardless of your familiarity with Linux, we highly encourage you to complete this exercise**.
 It will familiarize you with the project workflows and testing methods used throughout the course, ensuring you're well-prepared for future projects.
 
+[!IMPORTANT]
+If you need any help, feel free to reach out in the GitHub discussion community for the project.
+
 ## Preliminaries
 
 The first step we would like you to do is to fork this repo. 
@@ -37,26 +40,26 @@ This copy is completely separate from the original repository, so you can make c
 2. Now, [clone your forked repository into your PyCharm environment](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo). Cloning creates a local copy of the repository on your local computer. You'll work on the project's solution in PyCharm.   
 3. In PyCharm, [create a new branch](https://www.jetbrains.com/help/pycharm/manage-branches.html#create-branch) from branch `main`. Your branch **must** be named according to the following pattern:
 
-```text
-linux_project/YOUR_NAME_HERE
-```
+   ```text
+   linux_project/YOUR_NAME_HERE
+   ```
 
-While changing `YOUR_NAME_HERE` to your name, e.g. `linux_project/alonit`.
+   While changing `YOUR_NAME_HERE` to your name, e.g. `linux_project/alonit`.
 
 Don't worry if you don't understand exactly what "branch" is, or why do you do these steps. 
 We'll cover those topics later on in the course.
-We can only say than DevOps engineers do these steps as part of their daily workflow. 
+We can only say that DevOps engineers do these steps as part of their daily workflow. 
  
 
 Let's get started...
 
 ## Questions
 
-### Kernel System Calls
+### I. Kernel System Calls
 
 The Linux Kernel was presented in our first linux lecture - the main component of a Linux OS which functions as the core interface between a computer’s hardware and its applications.
 
-![](https://alonitac.github.io/DevOpsTheHardWay/img/linux_project_linuxkernel.png)
+![linux_project_linuxkernel][linux_project_linuxkernel]
 
 Then we moved to learn how to use the Terminal and communicate with the OS using commands such as `ls` or `chmod`. 
 But how does it really work? we type a command, hit the Enter key, and then what happen? This question tries to investigate that point.  
@@ -96,14 +99,17 @@ In the `SOLUTION` file, write a **brief** description of what the program does. 
 Try to get a general idea of what this program does by observing the sys calls and the directory you've run the program in.
 
 
-### Binary Numbers
+### II. Binary Numbers
+
+As you may know, the `chmod` command utilizes binary numbers to set permissions in Linux. 
+Let's work a bit with binary numbers.   
 
 1. Convert the following binary numbers to decimals: `111`, `100`, `10110`.
 2. What is the available decimal range represented by 8 bits binary number?
 3. Given a 9 bits binary number, suggest a method to represent negative numbers between `-255` to `255`.
 4. Suggest a method to represent a floating point numbers (e.g. `12.3`,  `15.7`, `0.2`) using 8 bits binary numbers.
 
-### Broken Symlink
+### III. Broken Symlink
 
 Uber has an automated daily backup system. Every day another backup file is being created in the file system according to the following format: `backup-YYYY-MM-DD.obj` (e.g. `backup-2023-03-01.obj`).
 To be able to restore the system from a backup copy in a convenient way,
@@ -130,7 +136,7 @@ mv latest-backup.obj backups/
 
 What's wrong here? provide a fix to Uber's code. 
 
-### File System Manipulations
+### IV. File System Manipulations
 
 1. Open up a Linux terminal and perform:
 
@@ -147,23 +153,40 @@ At the end, given a clean version of `src` directory (without the changes you've
  
 ## Submission
 
-To submit your project for testing, you first have to [commit](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#commit) your solution.
+Finished the project? it's time to submit your solution for testing.
 
-> [!IMPORTANT]
-> If it's the first time ever you're committing using Git, PyCharm may ask you to set your Git username and email. Feel free to specify any details you want. 
+In software engineering, testing is essential for ensuring the reliability and quality of the code that's delivered to production.
+Thus, we'll test your project to ensure it meets basic standards of correctness.
+This way, you'll receive immediate feedback and can quickly fix issues.
 
-The **only** two files that have to be committed are `SOLUTION` and `yourSolution.sh`.
+In order to deliver your project for testing, you need to save your changes (a.k.a. **Commit**), upload them to GitHub (a.k.a. **Push**), and request a review of your work (a.k.a. **Pull Request**).
+We'll guide you through these steps. 
 
-In the commit message, write some info regarding your commit, and click the **Commit** button.
-Commit messages are usually free text written by the developer, providing some information regarding the changes you are committing. 
-Examples could be something like "initial solution" or "linux project solution - work in progress" or "linux project - final solution!".
-Feel free to fix your code and commit the changes again and again. You can commit as much as you want.
+1. [Commit](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#commit) your changes through PyCharm.
 
-Then, [push](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#push) your solution to GitHub. 
+   > [!IMPORTANT]
+   > If it's the first time ever you're committing using Git, PyCharm may ask you to set your Git username and email. Feel free to specify any details you want. 
+
+   The **only** two files that have to be committed are `SOLUTION` and `yourSolution.sh`.
+   In the commit message, write some info regarding your commit, and click the **Commit** button.
+
+   Commit messages are usually free text written by the developer, providing some information regarding the changes she did. 
+   Examples could be something like "initial solution" or "linux project solution - work in progress" or "linux project - final solution!".
+   Feel free to fix your code and commit the changes again and again. You can commit as much as you want.
+
+2. Next, [push](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#push) your commits to GitHub. 
+3. Then, create a pull request:
+   - On GitHub.com, navigate to the main page of the repository.
+   - In the top navigation menu, choose **Pull Requests**, then **New Pull Request**.
+   - In the **Comparing changes** section, choose your forked repo as the **head repository** and your project branch as the **compare** branch. 
+     likewise, choose our project (`alonitac/LinuxProject`) as the base repo, and `main` as the base branch. As follows:
+     ![linux_project_pr][linux_project_pr]
+
+
+
 Bravo! you've submitted your solution! 
 
-Your solution has to pass an automated tests.
-Go to [GitHub actions](https://github.com/alonitac/__REPO_NAME__/actions) and make sure your solution has passed the tests. You must see the following message:
+Now go to [GitHub actions](https://github.com/alonitac/__REPO_NAME__/actions) and make sure your solution has passed the tests. You must see the following message:
 
 ```text
 Well Done! you've passed all tests
@@ -179,3 +202,6 @@ Otherwise, your solution has to be fixed. Do your changes, commit and push again
 
 
 # Good Luck
+
+[linux_project_linuxkernel]: https://alonitac.github.io/DevOpsTheHardWay/img/linux_project_linuxkernel.png
+[linux_project_pr]: https://alonitac.github.io/DevOpsTheHardWay/img/linux_project_pr.png
