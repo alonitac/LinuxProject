@@ -171,8 +171,7 @@ We'll guide you through these steps.
 
 1. [Commit](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#commit) your changes through PyCharm.
 
-   > [!IMPORTANT]
-   > If it's the first time ever you're committing using Git, PyCharm may ask you to set your Git username and email. Feel free to specify any details you want. 
+   If it's the first time ever you're committing, PyCharm may ask you to set your Git username and email. Feel free to specify any details you want. 
 
    The **only** two files that have to be committed are `SOLUTION` and `yourSolution.sh`.
    In the commit message, write some info regarding your commit, and click the **Commit** button.
@@ -183,24 +182,13 @@ We'll guide you through these steps.
 
 2. Next, [push](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#push) your commits to GitHub. 
 3. Then, create a pull request:
-   - On GitHub.com, navigate to the main page of the repository.
+   - On GitHub, navigate to the main page of the repository.
    - In the top navigation menu, choose **Pull Requests**, then **New Pull Request**.
    - In the **Comparing changes** section, choose your forked repo as the **head repository** and your project branch as the **compare** branch. 
      likewise, choose our project (`alonitac/LinuxProject`) as the base repo, and `main` as the base branch. As follows:
      ![linux_project_pr][linux_project_pr]
    - Finally, click **Create Pull Request**, you can leave some title and description, and click **Create Pull Request** again.
-4. Make sure you Pull Requests (PR) is passing all tests. 
-
-Now go to [GitHub actions](https://github.com/alonitac/__REPO_NAME__/actions) and make sure your solution has passed the tests. You must see the following message:
-
-```text
-Well Done! you've passed all tests
-```
-
-Otherwise, your solution has to be fixed. Do your changes, commit and push again.
-
-
-
+4. Make sure you Pull Requests (PR) is passing all tests. If there is ant failure, click on the failed test, **read the logs carefully**, try to understand the root cause of the issue, fix it, then commit and push again.  
 
 # Good Luck
 
