@@ -53,6 +53,13 @@ We can only say that DevOps engineers do these steps as part of their daily work
 
 Let's get started...
 
+
+> [!Note]
+> By working on this project, you are generating an activity on your GitHub profile.
+> This activity is visible to recruiters and potential employers, providing them with insights into your coding habits, projects, and overall engagement. 
+> Think of it as your digital "business card" for people who are interested in your technical experience.
+
+
 ## Questions
 
 ### I. Kernel System Calls
@@ -181,10 +188,8 @@ We'll guide you through these steps.
    - In the **Comparing changes** section, choose your forked repo as the **head repository** and your project branch as the **compare** branch. 
      likewise, choose our project (`alonitac/LinuxProject`) as the base repo, and `main` as the base branch. As follows:
      ![linux_project_pr][linux_project_pr]
-
-
-
-Bravo! you've submitted your solution! 
+   - Finally, click **Create Pull Request**, you can leave some title and description, and click **Create Pull Request** again.
+4. Make sure you Pull Requests (PR) is passing all tests. 
 
 Now go to [GitHub actions](https://github.com/alonitac/__REPO_NAME__/actions) and make sure your solution has passed the tests. You must see the following message:
 
@@ -194,10 +199,6 @@ Well Done! you've passed all tests
 
 Otherwise, your solution has to be fixed. Do your changes, commit and push again.
 
-> [!TIP]
-> By working on this project, you are generating an activity on your GitHub profile.
-> This activity is visible to recruiters and potential employers, providing them with insights into your coding habits, projects, and overall engagement. 
-> Think of it as your digital "business card" for people who are interested in your technical experience.  
 
 
 
