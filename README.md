@@ -11,7 +11,7 @@ This project is aimed for the **very beginners** who want to get familiar with G
 It will familiarize you with the project workflows and testing methods used throughout the course, ensuring you're well-prepared for future projects.
 
 > [!IMPORTANT]
-> If you need any help, feel free to reach out in the GitHub discussion community for the project.
+> If you need any help, feel free to reach out in the [GitHub discussion community](https://github.com/alonitac/DevOpsTheHardWay/discussions) of the course.
 
 ## Preliminaries
 
@@ -49,15 +49,14 @@ This copy is completely separate from the original repository, so you can make c
 Don't worry if you don't understand exactly what "branch" is, or why do you do these steps. 
 We'll cover those topics later on in the course.
 We can only say that DevOps engineers do these steps as part of their daily workflow. 
- 
-
-Let's get started...
-
 
 > [!Note]
 > By working on this project, you are generating an activity on your GitHub profile.
 > This activity is visible to recruiters and potential employers, providing them with insights into your coding habits, projects, and overall engagement. 
 > Think of it as your digital "business card" for people who are interested in your technical experience.
+
+
+Great, let's get started...
 
 
 ## Questions
@@ -188,7 +187,7 @@ We'll guide you through these steps.
      likewise, choose our project (`alonitac/LinuxProject`) as the base repo, and `main` as the base branch. As follows:
      ![linux_project_pr][linux_project_pr]
    - Finally, click **Create Pull Request**, you can leave some title and description, and click **Create Pull Request** again.
-4. Make sure you Pull Requests (PR) is passing all tests. If there is ant failure, click on the failed test, **read the logs carefully**, try to understand the root cause of the issue, fix it, then commit and push again.  
+4. Make sure your Pull Requests (PR) is passing all tests. If there is any failure, click on the failed test, **read the test logs carefully**, try to understand the root cause of the issue, fix it, then commit and push again.  
 
 # Good Luck
 

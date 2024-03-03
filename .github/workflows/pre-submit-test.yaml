@@ -1,0 +1,17 @@
+name: Students Presubmit Tests
+on:
+  pull_request_target:
+    types:
+      - opened
+      - reopened
+      - edited
+      - synchronize
+jobs:
+  LinuxProjectTest:
+    runs-on: ubuntu-latest
+    if: ${{ startsWith(github.ref, 'refs/heads/linux_project/')  }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Linux Project submit test
+        run: |
+          bash test.sh
