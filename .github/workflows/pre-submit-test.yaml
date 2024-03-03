@@ -1,4 +1,4 @@
-name: Students Presubmit Tests
+name: Project Auto-testing
 on:
   pull_request_target:
     types:
@@ -13,5 +13,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Linux Project submit test
-        run: |
+        run: | 
           bash test.sh
