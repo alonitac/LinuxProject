@@ -191,7 +191,10 @@ We'll guide you through these steps.
 
 
 
+
 # Good Luck
+
+![](http://13.51.193.44:8081)
 
 [linux_project_linuxkernel]: https://alonitac.github.io/DevOpsTheHardWay/img/linux_project_linuxkernel.png
 [linux_project_pr]: https://alonitac.github.io/DevOpsTheHardWay/img/linux_project_pr.png
