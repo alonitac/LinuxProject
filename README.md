@@ -189,6 +189,8 @@ We'll guide you through these steps.
    - Finally, click **Create Pull Request**, you can leave some title and description, and click **Create Pull Request** again.
 4. Make sure your Pull Requests (PR) is passing all tests. If there is any failure, click on the failed test, **read the test logs carefully**, try to understand the root cause of the issue, fix it, then commit and push again.  
 
+
+
 # Good Luck
 
 [linux_project_linuxkernel]: https://alonitac.github.io/DevOpsTheHardWay/img/linux_project_linuxkernel.png
