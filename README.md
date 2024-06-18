@@ -61,10 +61,10 @@ To run the program, open up a Linux terminal in an empty directory and use the `
 
 ```shell
 # for arm64 CPU architectures
-wget https://alonitac.github.io/DevOpsTheHardWay/linux_project/arm64/whatIdo
+wget https://exit-zero-academy.github.io/DevOpsTheHardWay/linux_project/arm64/whatIdo
 
 # for amd64 (x86_64) CPU architecture
-wget https://alonitac.github.io/DevOpsTheHardWay/linux_project/amd64/whatIdo
+wget https://exit-zero-academy.github.io/DevOpsTheHardWay/linux_project/amd64/whatIdo
 ```
 
 Depending on the type of CPU your computer has, you'll need to use the appropriate command.
@@ -124,7 +124,7 @@ What's wrong here? provide a fix to Uber's code.
 1. Open up a Linux terminal and perform:
 
 ```shell
-wget https://alonitac.github.io/DevOpsTheHardWay/linux_project/secretGenerator.tar.gz
+wget https://exit-zero-academy.github.io/DevOpsTheHardWay/linux_project/secretGenerator.tar.gz
 ```
 
 2. Use the `tar` command to extract the compressed file. Enter the `src` directory. Explore the files and their content. 
@@ -190,11 +190,11 @@ To create a pull request:
 
 - In your GitHub repo main page, navigate to [Pull Requests][pull_requests].
 - Choose **New Pull Request**.
-- In the **Comparing changes** section, choose your forked repo as the **head repository**, and our repo (`alonitac/LinuxProject`) as the **base repository**. Both branches should be `main`. As follows:
+- In the **Comparing changes** section, choose your forked repo as the **head repository**, and our repo (`exit-zero-academy/LinuxProject`) as the **base repository**. Both branches should be `main`. As follows:
   ![linux_project_pr][linux_project_pr]
 - Finally, click **Create Pull Request**, you can leave some title and description, and click **Create Pull Request** again.
 
-Note that the pull request was opened in the **base repository**, i.e. `alonitac/LinuxProject`, not in your forked repository. 
+Note that the pull request was opened in the **base repository**, i.e. `exit-zero-academy/LinuxProject`, not in your forked repository. 
 By doing so, you actually "asks" the base repo (the original project), to "pull" the files from your forked repo (your own copy of the project).
 
 As it's only an exercise, we may not approve your pull request (approval would lead your changes to be merged into our original project). But by creating a pull request you practice the process of contributing to GitHub projects, receive feedback on your work, and understand the collaboration workflow. 
@@ -206,14 +206,12 @@ Feel free to explore other's pull requests to discover different solution approa
 
 # Good Luck
 
-[linux_project_linuxkernel]: https://alonitac.github.io/DevOpsTheHardWay/img/linux_project_linuxkernel.png
-[linux_project_pr]: https://alonitac.github.io/DevOpsTheHardWay/img/linux_project_pr.png
+[linux_project_linuxkernel]: https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/linux_project_linuxkernel.png
+[linux_project_pr]: https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/linux_project_pr.png
 
-[DevOpsTheHardWay]: https://github.com/alonitac/DevOpsTheHardWay
-[onboarding_tutorial]: https://github.com/alonitac/DevOpsTheHardWay/blob/main/tutorials/onboarding.md
+[DevOpsTheHardWay]: https://github.com/exit-zero-academy/DevOpsTheHardWay
+[onboarding_tutorial]: https://github.com/exit-zero-academy/DevOpsTheHardWay/blob/main/tutorials/onboarding.md
 [autotest_badge]: ../../actions/workflows/project_auto_testing.yaml/badge.svg?event=push
 [autotest_workflow]: ../../actions/workflows/project_auto_testing.yaml/
-[fork_github]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository
-[clone_pycharm]: https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo
 [github_actions]: ../../actions
 [pull_requests]: ../../pulls

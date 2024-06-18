@@ -11,17 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Checkout Test files
-        uses: actions/checkout@v2
-        with:
-          repository: alonitac/LinuxProject
-          ref: main
-          path: LinuxProjectOriginal
-      - name: Copy test files
-        run: |
-          mv -f LinuxProjectOriginal/test/* test/
-          rm -f -r LinuxProjectOriginal
-
       - name: Linux Project test
         run: | 
+          curl -o test/test.sh -L https://raw.githubusercontent.com/exit-zero-academy/LinuxProject/main/test/test.sh
           bash test/test.sh

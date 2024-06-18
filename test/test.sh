@@ -15,7 +15,7 @@ else
   echo -e "\n\nCorrect secret!\n\n"
 fi
 
-wget https://alonitac.github.io/DevOpsTheHardWay/linux_project/secretGenerator.tar.gz
+wget https://exit-zero-academy.github.io/DevOpsTheHardWay/linux_project/secretGenerator.tar.gz
 tar -xf secretGenerator.tar.gz
 cp yourSolution.sh src/yourSolution.sh
 echo "q" > src/CONTENT_TO_HASH
