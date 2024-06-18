@@ -18,8 +18,14 @@ Thus, I want you to **fork** this repository.
 When you fork a repository, you create a copy of the original repository under your own GitHub account. 
 This copy is completely separate from the original repository, so you can make changes to it without altering the original project.
 
-1. [Fork this repo][fork_github]. 
-2. Now, Clone your forked repository into a new PyCharm project (read [here][clone_pycharm] how). You'll work on the project's solution in PyCharm.   
+1. Fork this repo by clicking **Fork** in the top-right corner of the page. 
+2. Clone your forked repository by:
+   ```bash
+   git clone https://github.com/<your-username>/<your-project-repo-name>
+   ```
+   Change `<your-username>` and `<your-project-repo-name>` according to your GitHub username and the name you gave to your fork. E.g. `git clone https://github.com/johndoe/INTLinuxProject`.
+ 
+3. Open up the repository folder via your favorite IDE (Pycharm, VSCode, etc..) as a new project.
 
 > [!Note]
 > By working on this project, you are generating an activity on your GitHub profile.
