@@ -23,7 +23,7 @@ This copy is completely separate from the original repository, so you can make c
    ```bash
    git clone https://github.com/<your-username>/<your-project-repo-name>
    ```
-   Change `<your-username>` and `<your-project-repo-name>` according to your GitHub username and the name you gave to your fork. E.g. `git clone https://github.com/johndoe/INTLinuxProject`.
+   Change `<your-username>` and `<your-project-repo-name>` according to your GitHub username and the name you gave to your fork. E.g. `git clone https://github.com/johndoe/LinuxProject`.
  
 3. Open up the repository folder via your favorite IDE (Pycharm, VSCode, etc..) as a new project.
 
@@ -61,10 +61,10 @@ To run the program, open up a Linux terminal in an empty directory and use the `
 
 ```shell
 # for arm64 CPU architectures
-wget https://exit-zero-academy.github.io/DevOpsTheHardWay/linux_project/arm64/whatIdo
+wget https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/linux_project/arm64/whatIdo
 
 # for amd64 (x86_64) CPU architecture
-wget https://exit-zero-academy.github.io/DevOpsTheHardWay/linux_project/amd64/whatIdo
+wget https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/linux_project/amd64/whatIdo
 ```
 
 Depending on the type of CPU your computer has, you'll need to use the appropriate command.
@@ -124,7 +124,7 @@ What's wrong here? provide a fix to Uber's code.
 1. Open up a Linux terminal and perform:
 
 ```shell
-wget https://exit-zero-academy.github.io/DevOpsTheHardWay/linux_project/secretGenerator.tar.gz
+wget https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/linux_project/secretGenerator.tar.gz
 ```
 
 2. Use the `tar` command to extract the compressed file. Enter the `src` directory. Explore the files and their content. 
